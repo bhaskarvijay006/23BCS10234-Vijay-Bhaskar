@@ -52,9 +52,9 @@ class Product {
 public class LambdaStreamDemo {
     public static void main(String[] args) {
         List<Employee> employees = Arrays.asList(
-            new Employee(3, "Alice", 50000),
-            new Employee(1, "Bob", 70000),
-            new Employee(2, "Charlie", 60000)
+            new Employee(3, "Ravindra", 50000),
+            new Employee(1, "Nikhil", 70000),
+            new Employee(2, "Mukesh", 60000)
         );
 
         System.out.println("Employees sorted by Name:");
@@ -66,10 +66,10 @@ public class LambdaStreamDemo {
         employees.forEach(System.out::println);
 
         List<Student> students = Arrays.asList(
-            new Student("John", 85),
-            new Student("Alice", 45),
-            new Student("Bob", 72),
-            new Student("Daisy", 90)
+            new Student("Vijay", 85),
+            new Student("Bhaskar", 45),
+            new Student("Anshu", 72),
+            new Student("Deepak", 90)
         );
 
         System.out.println("\nStudents with marks >= 60 sorted by name:");
